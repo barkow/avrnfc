@@ -52,7 +52,7 @@ TARGET = main
 
 
 # List C source files here. (C dependencies are automatically generated.)
-SRC = $(TARGET).c libfreefare/libfreefare/freefare.c libfreefare/libfreefare/mifare_desfire.c libfreefare/libfreefare/mifare_desfire_crypto.c libfreefare/libfreefare/mifare_desfire_aid.c libfreefare/libfreefare/mifare_desfire_error.c libfreefare/libfreefare/mifare_desfire_key.c nfcdummy.c desdummy.c
+SRC = $(TARGET).c libfreefare/libfreefare/freefare.c libfreefare/libfreefare/mifare_desfire.c libfreefare/libfreefare/mifare_desfire_crypto.c libfreefare/libfreefare/mifare_desfire_aid.c libfreefare/libfreefare/mifare_desfire_error.c libfreefare/libfreefare/mifare_desfire_key.c nfcdummy.c desdummy.c nfcPN532/nfcPN532.c
 
 
 # List Assembler source files here.
@@ -79,7 +79,7 @@ DEBUG = dwarf-2
 
 # List any extra directories to look for include files here.
 #     Each directory must be seperated by a space.
-EXTRAINCDIRS = libfreefare/libfreefare
+EXTRAINCDIRS = libfreefare/libfreefare nfcPN532
 
 
 # Compiler flag to set the C Standard level.

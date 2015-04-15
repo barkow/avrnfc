@@ -2,3 +2,6 @@
 	path = libfreefare
 	url = https://github.com/barkow/libfreefare.git
 	branch = avr
+[submodule "AdafruitPN532"]
+	path = AdafruitPN532
+	url = https://github.com/adafruit/Adafruit-PN532
