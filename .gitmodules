@@ -1,3 +1,4 @@
 [submodule "libfreefare"]
 	path = libfreefare
 	url = https://github.com/barkow/libfreefare.git
+	branch = avr
